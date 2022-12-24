@@ -1,0 +1,43 @@
+- var locale = "de_DE";
+- var title = "Title";
+- var description = "Description";
+- var author = "Frank Kirgis";
+- var url = "https://www.example.com/";
+
+- var organization_name = "Organization";
+- var organization_url = "https://www.example.com/";
+- var organization_logo = "https://www.example.com/media/logos/caupo-logo-384x384.png";
+
+- var image = "https://www.example.com/media/profile/frank-kirgis-150x150.jpg";
+- var image_width = "150";
+- var image_height = "150";
+- var image_copyright = "Frank Kirgis";
+
+- var twitter_creator = "@Frank_Kirgis";
+- var twitter_card = "summary_large_image";
+
+doctype html
+html(lang='de')
+
+    head
+        // include includes/head/meta.pug
+        // include includes/head/link.pug
+        include includes/head/css.pug
+        // include includes/head/favicons.pug
+        // include includes/head/startpage-social.pug
+    
+    body.d-flex.flex-column.h-100
+
+        header
+            include includes/navbar/navbar-main.pug
+
+        main
+            include includes/startpage/section-top.pug
+            // include includes/startpage/section-leistungen.pug
+            // include includes/startpage/section-technologien.pug
+            // include includes/startpage/section-kunden.pug
+            // include includes/startpage/section-agenturen.pug
+            // include includes/startpage/section-kontakt.pug
+
+        include includes/footer/footer.pug
+        include includes/scripts.pug
