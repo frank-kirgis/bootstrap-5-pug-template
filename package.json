@@ -1,6 +1,6 @@
 {
-    "title": "Bootstrap 5 Template",
-    "name": "B5T",
+    "title": "Bootstrap 5 Pug Template",
+    "name": "B5PT",
     "version": "1.0.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets && npm run build:media",
