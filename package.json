@@ -34,7 +34,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/frank-kirgis/bootstrap-5-template.git"
+        "url": "https://github.com/frank-kirgis/bootstrap-5-pug-template.git"
     },
     "dependencies": {
         "bootstrap": "5.2.3"
